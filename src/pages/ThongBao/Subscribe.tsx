@@ -11,9 +11,6 @@ const SubscribeOneSignal = () => {
 		document.title = `Đăng ký nhận thông báo | ${unitName.toUpperCase()}`;
 	}, []);
 
-	/**
-	 * Init OneSignal playerId with auth User
-	 */
 	useEffect(() => {
 		if (auth.user?.access_token)
 			OneSignal.getUserId().then((playerId) => {
