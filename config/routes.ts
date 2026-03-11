@@ -45,7 +45,42 @@
 	{
 		path: '/ba-tap-1',
 		name: 'BaiTap1',
+		icon: 'OrderedListOutlined',
 		component: './BaiTap1',
+	},
+	{
+		path: '/ba-tap-2',
+		name: 'Baitap2',
+		icon: 'OrderedListOutlined',
+		component: './Baitap2',
+	},
+
+	{
+		path: '/game',
+		name: 'Number Guessing Game',
+		icon: 'OrderedListOutlined',
+		component: './Game',
+	},
+
+	{
+		path: '/quan-ly-tien-do-hoc-tap',
+		name: 'Quản lí tiến độ học tập',
+		icon: 'OrderedListOutlined',
+		component: './QuanLiTienDoHocTap',
+	},
+
+	{
+		path: '/Oan-Tu-Ti-Game',
+		name: 'Oẳn Tù Tì',
+		icon: 'OrderedListOutlined',
+		component: './OanTuTiGame',
+	},
+
+	{
+		path: '/Quan-Li-Ngan-Hang-Cau-Hoi',
+		name: 'Quản lí ngân hàng câu hỏi',
+		icon: 'OrderedListOutlined',
+		component: './QuanLiNganHangCauHoi',
 	},
 
 	// DANH MUC HE THONG

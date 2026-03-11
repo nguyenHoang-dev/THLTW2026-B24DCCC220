@@ -16,14 +16,10 @@ const BaiTap1 = () => {
 	};
 
 	const cot = [
-		{ title: 'STT', key: 'stt' },
-
+		{ title: 'STT', dataIndex: 'id', key: 'id' },
 		{ title: 'Tên Sản Phẩm', dataIndex: 'name', key: 'name' },
-
 		{ title: 'Giá', dataIndex: 'price', key: 'price' },
-
 		{ title: 'Số Lượng', dataIndex: 'quantity', key: 'quantity' },
-
 		{
 			title: 'Thao Tác',
 			key: 'action',
@@ -58,10 +54,10 @@ const BaiTap1 = () => {
 						<Input />
 					</Form.Item>
 					<Form.Item label='Giá' name='price' rules={[{ required: true }]}>
-						<InputNumber style={{ width: '100%' }} />
+						<InputNumber style={{ width: '100%' }} min={0} />
 					</Form.Item>
 					<Form.Item label='Số lượng' name='quantity' rules={[{ required: true }]}>
-						<InputNumber style={{ width: '100%' }} />
+						<InputNumber style={{ width: '100%' }} min={0} />
 					</Form.Item>
 					<Button type='primary' htmlType='submit' block>
 						Lưu
