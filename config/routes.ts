@@ -83,6 +83,13 @@
 		component: './QuanLiNganHangCauHoi',
 	},
 
+	{
+		path: '/Quan-Li-Don-Dang-Ki-CLB',
+		name: 'Quản lí đơn đăng ký CLB',
+		icon: 'OrderedListOutlined',
+		component: './QuanLiDonDangKiCLB',
+	},
+
 	// DANH MUC HE THONG
 	// {
 	// 	name: 'DanhMuc',
