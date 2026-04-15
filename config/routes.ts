@@ -90,6 +90,20 @@
 		component: './QuanLiDonDangKiCLB',
 	},
 
+	{
+		path: '/Lap-Ke-Hoach-Du-Lich',
+		name: 'Lập kế hoạch du lịch',
+		icon: 'OrderedListOutlined',
+		component: './LapKeHoachDuLich',
+	},
+
+	{
+		path: '/Quan-Li-Don-Hang',
+		name: 'Quản lí đơn hàng',
+		icon: 'OrderedListOutlined',
+		component: './QuanLiDonHang',
+	},
+
 	// DANH MUC HE THONG
 	// {
 	// 	name: 'DanhMuc',
