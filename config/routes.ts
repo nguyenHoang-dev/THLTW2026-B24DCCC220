@@ -103,6 +103,12 @@
 		icon: 'OrderedListOutlined',
 		component: './QuanLiDonHang',
 	},
+	{
+		path: '/Blog-Ca-Nhan',
+		name: 'Blog Cá Nhân',
+		icon: 'OrderedListOutlined',
+		component: './BlogCaNhan',
+	},
 
 	// DANH MUC HE THONG
 	// {
