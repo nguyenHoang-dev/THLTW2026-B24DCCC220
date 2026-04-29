@@ -110,6 +110,13 @@
 		component: './BlogCaNhan',
 	},
 
+	{
+		path: '/Ung-Dung-The-Duc-Theo-Doi-Suc-Khoe',
+		name: 'Ứng dụng thể dục theo dõi sức khỏe',
+		icon: 'OrderedListOutlined',
+		component: './UngDungTheDucTheoDoiSucKhoe',
+	},
+
 	// DANH MUC HE THONG
 	// {
 	// 	name: 'DanhMuc',
