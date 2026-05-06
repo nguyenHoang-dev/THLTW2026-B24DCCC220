@@ -117,6 +117,13 @@
 		component: './UngDungTheDucTheoDoiSucKhoe',
 	},
 
+	{
+		path: '/Theo-Doi-Cong-Viec-Ca-Nhan',
+		name: 'Theo dõi công việc cá nhân',
+		icon: 'OrderedListOutlined',
+		component: './TheoDoiCongViecCaNhan',
+	},
+
 	// DANH MUC HE THONG
 	// {
 	// 	name: 'DanhMuc',
